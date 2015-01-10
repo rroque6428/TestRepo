@@ -1,23 +1,30 @@
 Title
-Tile
-#Title1
+
+#Title1#
 ##Title2
-======================
-1. Opcao 1
-1. Opcao 1
-1. Opcao 1
 
-* Opcao
-* Opcao
-* Opcao
-[Link(http://amazon.com)]
-[Link2][1]
+1. Opcao
+  * Opcao
+  * Opcao
+1. Opcao
 
-#!Java
-public class Stack<Item> {
+- List item
+- <i>Opcao</i>
+- <b>Opcao</b>
 
-}
+[Link](http://amazon.com)<br>
+[Link2][10]
+
+    #!Java 
+    public class Stack<Item> {
+    }
+
+    #!javascript
+    function hi(){
+      alert('hi!');
+    }
 
 
-[1]:[http:amazon.com]
+[10]: [http:amazon.com]
+
 
